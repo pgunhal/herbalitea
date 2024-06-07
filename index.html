@@ -1,45 +1,92 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Herbalitea Support</title>
+    <title>Tea App Support</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <img src="Herbal Tea Assistant.png" alt="Herbalitea Logo" id="logo">
+        <h1>Tea App Support</h1>
         <nav>
             <ul>
-                <li><a href="#welcome">Home</a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#privacy">Privacy Policy</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="welcome">
-        <h1>Welcome to Herbalitea Support</h1>
-        <p>Your companion on the journey through the world of herbal teas.</p>
+    <section id="home">
+        <h2>Welcome to Tea App Support</h2>
+        <p>Discover the benefits of our tea app, learn how to use it, and get the help you need.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Track your tea consumption</li>
+            <li>Explore a variety of tea recipes</li>
+            <li>Set reminders for your tea time</li>
+            <li>Log your tea preferences and notes</li>
+        </ul>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>How do I log my tea consumption?</h3>
+            <p>You can log your tea consumption by clicking on the 'Log Tea' button on the main screen of the app.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can I set reminders for tea time?</h3>
+            <p>Yes, you can set reminders by navigating to the 'Reminders' section in the app settings.</p>
+        </div>
+        <!-- Add more FAQs as needed -->
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <form id="contactForm">
-            <input type="text" id="name" name="name" placeholder="Your name" required>
-            <input type="email" id="email" name="email" placeholder="Your email" required>
-            <textarea id="message" name="message" placeholder="Your message" required></textarea>
-            <button type="submit">Send Message</button>
+        <p>If you need further assistance, please reach out to us:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
         </form>
     </section>
 
-    <footer>
-        <p>Follow us on social media</p>
-        <a href="your_facebook_link">Facebook</a> |
-        <a href="your_twitter_link">Twitter</a> |
-        <a href="your_instagram_link">Instagram</a>
-    </footer>
+    <section id="privacy">
+        <h2>Privacy Policy</h2>
+        <p>Your privacy is important to us. This privacy policy explains what personal data we collect from you and how we use it.</p>
+        <h3>Information We Collect</h3>
+        <p>We may collect the following information from you if you choose to provide it:</p>
+        <ul>
+            <li>Name</li>
+            <li>Email address</li>
+        </ul>
+        <h3>How We Use Your Information</h3>
+        <p>The information we collect is used solely for quality assurance purposes. This means we use your name and email address to:</p>
+        <ul>
+            <li>Respond to your inquiries and support requests</li>
+            <li>Improve our app and services based on your feedback</li>
+        </ul>
+        <p>We do not share your personal information with third parties.</p>
+        <h3>Your Choices</h3>
+        <p>Providing your name and email address is completely optional. You can use the app without providing this information, and you can opt out of any communications at any time.</p>
+    </section>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Tea App. All rights reserved.</p>
+    </footer>
 </body>
 </html>
